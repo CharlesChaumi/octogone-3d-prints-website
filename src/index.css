@@ -1,68 +1,181 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/** 
+ * @copyright Technologies Octogone. Tous droits réservés
+ * Ce code est la propriété exclusive de Technologies Octogone . 
+ * Toute reproduction, utilisation ou diffusion, partielle ou totale, 
+ * sans l'autorisation écrite préalable de Technologies Octogone est strictement interdite.
+*/
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* ---------------------------------------------------*/
+/* BASE                                               */
+/* ---------------------------------------------------*/
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+ @apply bg-zinc-900 text-zinc-50 h-[100vh]
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* ---------------------------------------------------*/
+/* TYPOGRAPHY                                         */
+/* ---------------------------------------------------*/
+.headline-1, .headline-2, .headline-3 {
+    @apply max-w-max;
+    background: -webkit-linear-gradient(0deg, #fafafa, #d2d2eb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.infinite{
+    @apply min-w-[60px] text-4xl lg:text-5xl lg:leading-[1.15];
+    font-weight: 600;
+    padding-left: 2px;
+    background: -webkit-linear-gradient(0deg, #00ccff, #ae00ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.headline-1 {
+    @apply text-4xl leading-tight font-semibold lg:text-5xl lg:leading-[1.15] pb-1;
 }
+
+.headline-2 {
+    @apply text-3xl lg:text-4xl lg:leading-tight font-semibold pb-1;
+}
+
+.headline-3 {
+    @apply text-2xl lg:text-3xl lg:leading-tight font-semibold
+}
+
+.title-1 {
+    @apply text-[20px] font-normal
+}
+
+/* ---------------------------------------------------*/
+/* UTILITIES                                         */
+/* ---------------------------------------------------*/
+.material-symbols-rounded {
+    @apply w-[1em] h-[1em] overflow-hidden;
+    font-variation-settings: "FILL" 0, "wgt" 400, "GRAD" 0, "opsz" 24;
+}
+
+.container {
+    @apply px-6 mx-auto md:max-w-6xl;
+}
+
+
+.img-box {
+    @apply bg-zinc-700 overflow-hidden
+}
+
+.img-cover {
+    @apply w-full h-full object-cover
+}
+
+.section {
+    @apply pt-20 lg:pt-32
+}
+
+/* ---------------------------------------------------*/
+/* COMPONENTS                                         */
+/* ---------------------------------------------------*/
+
+/* Menu Button */
+.menu-btn {
+    @apply w-10 h-10 
+    grid place-items-center
+     bg-zinc-50/10 rounded-xl ring-inset ring-1 ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15
+     transition-[transform,background-color] active:scale-95
+}
+
+/* NavBar */
+.navbar {
+    @apply absolute top-full mt-2 right-0 min-w-40 bg-zinc-50/10 rounded-lg ring-inset ring-zinc-50/5 scale-90 isolate blur-sm opacity-0 invisible transition-[opacity,transform,filter] md:static md:flex md:items-center md:mt-0 md:opacity-100 md:blur-0 md:visible md:scale-100 backdrop-blur-2xl
+}
+
+.navbar.active {
+    @apply opacity-100 scale-100 blur-0 visible
+}
+
+.nav-link {
+    @apply grid items-center h-9 px-4 text-sm font-medium tracking-wide text-zinc-50/40 hover:text-zinc-50 transition-colors
+}
+
+.nav-link.active {
+    @apply text-zinc-900 duration-500
+}
+
+.navbar .active-box {
+    @apply absolute bg-zinc-50 rounded-lg -z-10 transition-[top,left] duration-500
+}
+
+/* Button */
+.btn {
+    @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-lg font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color]
+}
+
+.btn-secondary {
+    @apply  bg-sky-500 text-zinc-950 hover:bg-sky-400 active:bg-sky-500
+}
+
+.btn .material-symbols-rounded {
+    @apply text-[18px] 
+}
+
+.btn:has( .material-symbols-rounded) {
+    @apply pr-3
+}
+
+.btn-primary {
+    @apply h-9 bg-sky-500 text-zinc-950 hover:bg-sky-400 active:bg-sky-500
+}
+
+.btn-outline {
+    @apply h-9 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800
+}
+
+/* Text Field */
+.label{
+    @apply block text-zinc-200 text-sm font-normal mb-2
+}
+
+.text-field {
+    @apply block outline-none w-full px-3 py-3 text-sm bg-zinc-800 rounded-lg ring-1 ring-inset ring-transparent transition-shadow hover:ring-zinc-50/5 focus:ring-sky-400 
+}
+
+.text-field::placeholder {
+    @apply text-zinc-400
+}
+
+
+/* Image Swiper */
+.swiper {
+    @apply w-full h-full;
+  }
+  
+  .swiper-slide {
+    @apply bg-zinc-900 flex justify-center items-center ; 
+  }
+  
+  .swiper-slide img {
+    @apply block h-[80px] sm:h-[120px] object-contain rounded-md;
+  }
+  
+  .swiper {
+    @apply h-[80px] sm:h-[120px] my-[10px] mx-auto;
+  }
+
+  .swiper-button-next:after {
+    @apply text-[24px];
+  }
+
+  .swiper-button-prev:after {
+    @apply text-[24px];
+  }
