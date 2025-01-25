@@ -95,12 +95,12 @@ const ServicesTree = [
   {
     title: "serviceAdvisingSectionTitle",
     ServiceList: [
-      {
+      /*{
         symbol: "advising.svg",
         label: "serviceAdvisingBusiness",
         description:
           "serviceAdvisingBusinessDescription",
-      },
+      },*/
       {
         symbol: "training.svg",
         label: "serviceAdvisingTraining",
