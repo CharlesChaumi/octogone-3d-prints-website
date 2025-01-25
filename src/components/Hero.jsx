@@ -8,7 +8,7 @@
 /**
  * Node Modules
  */
-import { useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 
 
 /**
@@ -28,6 +28,13 @@ import useNavbar from "../hooks/use_navbar";
 import { Trans } from "react-i18next";
 import { useTranslation } from "react-i18next";
 
+const heroBannerImage = [
+    "/images/HeroBanner/PXL_20250125_174117319.MP~3.png",
+    "/images/HeroBanner/PXL_20250125_174230064.png",
+    "/images/HeroBanner/PXL_20250125_174341672~2.png",
+    "/images/HeroBanner/PXL_20250125_174447486~2.png",
+];
+
 
 const Hero = () => {
 
@@ -41,6 +48,20 @@ const Hero = () => {
         if (isVisible && current !== ref)
             setCurrent(document.getElementsByClassName("home")[0]);
     }, [isVisible]);
+
+    const getRandomImage = (images) => {
+        const randomIndex = Math.floor(Math.random() * images.length);
+        return images[randomIndex];
+    }
+
+    
+    const [randomImage, setRandomImage] = useState('');
+
+    useEffect(() => {
+        setRandomImage(getRandomImage(heroBannerImage));
+      }, []);
+
+
 
     return (
         <section id="home" ref={ref} className="pt-24 lg:pt-36">
@@ -84,9 +105,9 @@ const Hero = () => {
                     <figure>
                         <img
                             className="w-full max-w-[480px] ml-auto rounded-[25px] overflow-hidden"
-                            src="/images/hero-banner.png"
+                            src={randomImage}
                             alt="Hero Cover Image"
-                            width={800}
+                            width={1200}
                         />
                     </figure>
                 </div>
