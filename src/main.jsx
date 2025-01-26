@@ -32,7 +32,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        {console.log("On essaye de rendre le truc")}
         <Route path="/" element={<App />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

@@ -45,7 +45,6 @@ const Navbar = ({navOpen}) => {
     }
 
     function updateCurrent(element) {
-        console.log(element.className)
         lastActiveLink.current?.classList.remove('active');
         element.classList.add('active');
         lastActiveLink.current = element;
