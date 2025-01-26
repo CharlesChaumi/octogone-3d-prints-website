@@ -34,7 +34,7 @@ const resources = {
             heroSecondButton: "Our Services",
 
             aboutDescription:
-                "Welcome! Octogone 3D Prints\u2122 is a 3D printing service that offers a complete support and customization experience. Our mission is to promote creativity and technical expertise at every stage of the printing value chain to give you the best journey in 3D printg world. Quality and control is the cornerstone of our practice to ensure outcomes that meet your expectations.",
+                "Welcome! Octogone 3D Prints\u2122 is a 3D printing service that offers a complete support and customization experience. Our mission is to promote creativity and technical expertise at every stage of the printing value chain to give you the best journey in the 3D printing world. Quality and control is the cornerstone of our practice to ensure outcomes that meet your expectations.",
             aboutProject: "Project Done",
             aboutYear: "Years of Experience",
 
@@ -43,7 +43,7 @@ const resources = {
 
             serviceDesignSectionTitle : "Design",
             serviceDesignIdeation : "Ideation",
-            serviceDesignIdeationDescription : "We provide efficient ideation process to clarify your vision, your needs and what's necessary or not. This first step is mandatory to ensure the final product will meet all the refined specifications and have the best outcomes right from the beginning.",
+            serviceDesignIdeationDescription : "We provide an efficient ideation process to clarify your vision, your needs and what's necessary or not. This first step is mandatory to ensure the final product will meet all the refined specifications and have the best outcomes right from the beginning.",
             serviceDesignModeling : "Technical modelling",
             serviceDesignModelingDescription : "The modelling phase is a state of art process to ensure features, form-factor and design are perfectly balanced. Take advantage of our expertise to create and give life to your perfect idea.",
             serviceDesigMaterial : "Material and Printing Technology Selection",
@@ -53,31 +53,31 @@ const resources = {
             servicePrintingOnDemand : "Print on Demand",
             servicePrintingOnDemandDescription : "Need a unique prototype, a spare part that you can't find, or a personalized gift? Our on-demand 3D printing meets all your needs, whatever your projects.",
             servicePrintingCatalog : "Catalog Printing",
-            servicePrintingCatalogDescription : "The 3D printing community is large and creative. If you don't have a printer, we can simply print the file from an online catalog if it's license authorized it.",
+            servicePrintingCatalogDescription : "The 3D printing community is large and creative. If you don't have a printer, we can simply print the file from an online catalog if its license authorized it.",
             servicePrintingPrototyping : "Prototyping",
-            servicePrintingPrototypingDescription : "Product design must meet precise specifications. By prototyping the product using 3D printing, it offers a cost effective to make sure the final product will meet all it's objectives.",
+            servicePrintingPrototypingDescription : "Product design must meet precise specifications. By prototyping the product using 3D printing, it offers a cost effective way to make sure the final product will meet all its objectives.",
             servicePrintingScaling : "Large Scale Printing",
-            servicePrintingScalingDescription : "Large scale printing is quite difficult to handle when you have access to few printers. With our production capacity, we can provide high production rate, without compromise on the quality.",
+            servicePrintingScalingDescription : "Large scale printing is quite difficult to handle when you have access to few printers. With our production capacity, we can provide a high production rate, without compromise on the quality.",
             servicePrintingPostProcess : "Post Processing",
             servicePrintingPostProcessDescription : "Finishing is often the key to several specifications. If you want a paint finish or use the 3d Printed as a mold , we can finish the parts to specific usages.",
             servicePrintingQuality : "Quality Assurance",
-            servicePrintingQualityDescription : "Quality, repeatability and reliability is part of our process foundation. Our personalization service relies on quality assurance process to make sure every part will satisfy your needs.",
+            servicePrintingQualityDescription : "Quality, repeatability and reliability is part of our process foundation. Our personalization service relies on a quality assurance process to make sure every part will satisfy your needs.",
 
             serviceAdvisingSectionTitle : "Advising",
             serviceAdvisingBusiness : "Business Advising",
-            serviceAdvisingBusinessDescription : "By running a 3D printing services, we have a strong expertise, and we can provide you the knowledge and the tools to implement this technology in your day-to-day activities. Therefore, we help organizations take strategic decisions on 3D printing implementation and usage.",
+            serviceAdvisingBusinessDescription : "By running 3D printing services, we have a strong expertise, and we can provide you with the knowledge and the tools to implement this technology in your day-to-day activities. Therefore, we help organizations take strategic decisions on 3D printing implementation and usage.",
             serviceAdvisingTraining : "Training",
-            serviceAdvisingTrainingDescription : "To introduce young through fun workshops, or increase your technicians' knowledge, we can provide full training program to anyone who want to deep dive in this amazing technology.",
+            serviceAdvisingTrainingDescription : "To introduce young people through fun workshops, or increase your technicians' knowledge, we can provide a full training program to anyone who wants to deep dive in this amazing technology.",
             serviceAdvisingDFM : "Design for Printing",
-            serviceAdvisingDFMDescription : "Most of the company wants to design their own prototypes or large scale printing product. Did you know there were specific considerations you want to take in account when designing such a model? We can help you take have the best experience from the drawing phase.",
+            serviceAdvisingDFMDescription : "Most of the companies want to design their own prototypes or large scale printing products. Did you know there were specific considerations you want to take in account when designing such a model? We can help you have the best experience from the drawing phase.",
 
-            projectsSectionTitle : "Projects Protfolio Highlight",
+            projectsSectionTitle : "Projects Portfolio Highlight",
 
-            projectLayoutDescription : "Projet Description",
+            projectLayoutDescription : "Project Description",
 
             projectsLanternTitle : "Decorative lantern - Wedding table",
             projectsLanternTag1 : "Design",
-            projectsLanternDescription : "The customer wanted a lantern to decorate her wedding table. She shared her inspirations with us, and we designed the model. The main issue was design for manufacturing aspect due to complex shapes as each piece is independent to facilitate printing and final use.The 48 lanterns produced are assembled and labeled for all guests. This project made a big impression on us, because although the complexity was moderate, the expectations were high. However, we're proud to have been part of such an important moment in life.",
+            projectsLanternDescription : "The customer wanted a lantern to decorate her wedding table. She shared her inspirations with us, and we designed the model. The main issue was design for the manufacturing aspect due to complex shapes as each piece is independent to facilitate printing and final use.The 48 lanterns produced are assembled and labeled for all guests. This project made a big impression on us, because although the complexity was moderate, the expectations were high. However, we're proud to have been part of such an important moment in life.",
 
             projectsMercyTitle : "Mercy & Widowmaker action figure - Overwatch - Blizzard",
             projectsMercyTag1 : "Technology selection",
@@ -126,7 +126,7 @@ const resources = {
             heroSecondButton: "Nos services",
 
             aboutDescription:
-                "Bienvenue ! Octogone 3D Prints\u2122 est un service d'impression 3D qui offre un support complet et une expérience de personnalisée. Notre mission est de promouvoir la créativité et l'expertise technique à chaque étape de la chaîne de valeur de l'impression afin de vous offrir le meilleur parcours dans le monde de l'impression 3D. La qualité et le contrôle sont la pierre angulaire de notre pratique afin de garantir des résultats à la hauteur de vos attentes.",
+                "Bienvenue ! Octogone 3D Prints\u2122 est un service d'impression 3D qui offre un support complet et une expérience personnalisée. Notre mission est de promouvoir la créativité et l'expertise technique à chaque étape de la chaîne de valeur de l'impression afin de vous offrir le meilleur parcours dans le monde de l'impression 3D. La qualité et le contrôle sont la pierre angulaire de notre pratique afin de garantir des résultats à la hauteur de vos attentes.",
             aboutProject: "Projets réalisés",
             aboutYear: "Années d'expérience",
 
@@ -137,7 +137,7 @@ const resources = {
             serviceDesignIdeation : "Idéation",
             serviceDesignIdeationDescription : "Nous proposons un processus d'idéation efficace pour clarifier votre vision, vos besoins et ce qui est nécessaire ou non. Cette première étape est obligatoire pour garantir que le produit final répondra à toutes les spécifications et produira les meilleurs résultats dès le début.",
             serviceDesignModeling : "Modélisation technique",
-            serviceDesignModelingDescription : "La phase de modélisation est un processus méthodique qui garantit un équilibre parfait entre fonctionnalités, la forme et le design. Profitez de notre expertise pour créer et donner vie à votre imagination.",
+            serviceDesignModelingDescription : "La phase de modélisation est un processus méthodique qui garantit un équilibre parfait entre fonctionnalités, forme et le design. Profitez de notre expertise pour créer et donner vie à votre imagination.",
             serviceDesigMaterial : "Sélection des matériaux et des technologies d'impression",
             serviceDesigMaterialDescription : "Les produits imprimés en 3D doivent répondre à leur objectif de toutes les manières possibles. Nous sélectionnons soigneusement la technologie d'impression et le matériau de chaque pièce pour garantir que le produit final répondra à toutes les spécifications et satisfera toutes les attentes.",
 
@@ -149,9 +149,9 @@ const resources = {
             servicePrintingPrototyping : "Prototypage",
             servicePrintingPrototypingDescription : "La conception d'un produit doit répondre à des spécifications précises. Le prototypage du produit à l'aide de l'impression 3D offre une solution rentable pour garantir que le produit final répondra à tous ses objectifs.",
             servicePrintingScaling : "Impression à grande échelle",
-            servicePrintingScalingDescription : "L'impression à grande échelle est assez difficile à gérer lorsque vous n'avez accès qu'à quelques imprimantes. Grâce à notre capacité de production, nous pouvons fournir un taux de production élevé, sans compromis sur la qualité",
+            servicePrintingScalingDescription : "L'impression à grande échelle est assez difficile à gérer lorsque vous n'avez accès qu'à quelques imprimantes. Grâce à notre capacité de production, nous pouvons fournir un taux de production élevé, sans compromis sur la qualité.",
             servicePrintingPostProcess : "Post-traitement",
-            servicePrintingPostProcessDescription : "La finition est souvent la clé de plusieurs spécifications. Si vous souhaitez une finition de peinture ou utiliser l'impression 3D comme moule, nous pouvons finir les pièces pour des utilisations pécifiques.",
+            servicePrintingPostProcessDescription : "La finition est souvent la clé de plusieurs spécifications. Si vous souhaitez une finition de peinture ou utiliser l'impression 3D comme moule, nous pouvons finir les pièces pour des utilisations spécifiques.",
             servicePrintingQuality : "Assurance qualité",
             servicePrintingQualityDescription : "La qualité, la répétabilité et la fiabilité font partie intégrante de notre processus. Notre service de personnalisation s'appuie sur un processus d'assurance qualité pour garantir que chaque pièce répondra à vos besoins.",
 
@@ -172,7 +172,7 @@ const resources = {
             projectsLanternDescription : "La cliente voulait une lanterne afin de décorer sa table de mariage. Elle nous a partagé ses inspirations et nous avons dessiné ce modèle. L’enjeu principal était le design pour la fabrication, car chaque pièce est indépendante pour faciliter l’impression et l’utilisation finale. Les 48 lanternes produites sont assemblées et étiquetées pour l’ensemble des invités. Ce projet nous a marqué, car même si la complexité est modérée, les attentes étaient hautes. Cependant, nous sommes fiers d’avoir participé à un moment aussi important de la vie.",
 
             projectsMercyTitle : "Figurine Mercy & Widowmaker - Overwatch Blizzard",
-            projectsMercyTag1 : "Sélection de la technologie ",
+            projectsMercyTag1 : "Sélection de la technologie",
             projectsMercyDescription : "Le client voulait deux figurines au format large. Nous avons discuté de la faisabilité, car le fichier original ne se prêtait pas à l’impression 3D. Nous avons cherché avec lui dans les nombreux catalogues qui existent afin de dénicher les modèles parfaits ! Le plus grand défi était d’assurer la qualité des impressions. Maximisant le volume de nos imprimantes, la quantité de matériaux non négligeable, toutes les mesures ont été prises afin d’assurer le succès des impressions au vu de leur géométrie complexe.",
 
             projectsIPadtitle : "Support iPad Simpliste",
@@ -184,15 +184,15 @@ const resources = {
 
             projectsBoxTitle : "Boite décorative ",
             projectsBoxTag1 : "Sélection des matériaux ",
-            projectsBoxDescription : "Nous avons dessiné ces boites décoratives pour une cliente qui souhaitait ajouter un accessoire original dans son intérieur. Elle voulait s’assurer de pouvoir y déposer des comestibles et s’inquiétait que le matériau de base ne soit pas adapté. Nous avons conclu que le PLA serait sélectionné adéquatement et que nos imprimantes seraient adaptées en conséquence. La seule contre-indication serait les produits liquides. Nous nous sommes assurés de la qualité des produits finis pour éviter toute ingestion de plastique lors de l’utilisation.",
+            projectsBoxDescription : "Nous avons dessiné ces boîtes décoratives pour une cliente qui souhaitait ajouter un accessoire original dans son intérieur. Elle voulait s’assurer de pouvoir y déposer des comestibles et s’inquiétait que le matériau de base ne soit pas adapté. Nous avons conclu que le PLA serait sélectionné adéquatement et que nos imprimantes seraient adaptées en conséquence. La seule contre-indication serait les produits liquides. Nous nous sommes assurés de la qualité des produits finis pour éviter toute ingestion de plastique lors de l’utilisation.",
 
             projectsPhoneTitle : "Support téléphone Lowpoly",
             projectsPhoneDescription : "Le client souhaitait offrir à ses employés des accessoires à l’image de l’entreprise pour la fin d’année. Nous avons été contactés pour des supports de téléphone avec le logo de l’entreprise. Nous avons donc mis la priorité sur la rapidité et les coûts de production en conservant un large choix de couleurs. Nous avons donc dessiné un modèle d’inspiration low-poly qui met bien en relief les matériaux utilisés et optimise le temps d’impression. Nous avons produit plus d’une centaine de pièces pour l’occasion.",
 
 
             contactSectionTitle : "Imprimons votre prochaine idée !",
-            contactSectionDescription : "Contactez-nous dès aujourd'hui pour discuter de vos besoins et commencer à collaborer sur quelque chose d'extraordinaire ! »",
-            contactInfo : 'Contactez nous à : <1 href="mailto:info@octogone3dprints.com" className="text-zinc-400 hover:text-zinc-50">info@octogone3dprints.com</1>  <br />ou cliquez sur le bouton ci-dessous : ',
+            contactSectionDescription : "Contactez-nous dès aujourd'hui pour discuter de vos besoins et commencer à collaborer sur quelque chose d'extraordinaire !»",
+            contactInfo : 'Contactez nous à : <1 href="mailto:info@octogone3dprints.com" className="text-zinc-400 hover:text-zinc-50">info@octogone3dprints.com</1>  <br />Ou cliquez sur le bouton ci-dessous : ',
             contactButton : "Contactez nous",
 
 
