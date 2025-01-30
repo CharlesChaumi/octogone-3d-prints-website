@@ -52,7 +52,7 @@ const Header = () => {
         >
             <h1>
                 <a
-                    href="/"
+                    href="#home"
                     className="logo"
                 >
                     <img 
