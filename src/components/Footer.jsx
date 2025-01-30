@@ -76,7 +76,7 @@ const Footer = () => {
                     </div>
 
                     {/*<div className="grid grid-cols-2 gap-4 lg:pl-60">*/}
-                    <div className="grid lg:pl-60">
+                    <div>
                         <div>
                             <p className="mb-2 eveal-up">{t("footerSitemapHeader")}</p>
 
