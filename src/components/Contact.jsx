@@ -211,7 +211,7 @@ const Contact = () => {
                         type="submit"
                         className="btn btn-primary  [&]:max-w-full w-full justify-center"
                     >
-                        {t("Contact us")}
+                        {t("contactButton")}
                     </button>
                 </a>
                 </div>

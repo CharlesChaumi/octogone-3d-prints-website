@@ -75,8 +75,7 @@ const Footer = () => {
                         </h2>
                     </div>
 
-                    {/*<div className="grid grid-cols-2 gap-4 lg:pl-60">*/}
-                    <div>
+                    {/*<div className="grid grid-cols-2 gap-4 lg:pl-60">
                         <div>
                             <p className="mb-2 eveal-up">{t("footerSitemapHeader")}</p>
 
@@ -91,7 +90,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        {/*<div>
+                        <div>
                             <p className="mb-2 ">{t("footerSocialHeader")}</p>
 
                             <ul>
@@ -107,8 +106,8 @@ const Footer = () => {
                                     </li>
                                 ))}
                             </ul>
-                        </div>*/}
-                    </div>
+                        </div>
+                    </div>*/}
                 </div>
 
                 <div className="flex items-center justify-between pt-10 pb-8 ">

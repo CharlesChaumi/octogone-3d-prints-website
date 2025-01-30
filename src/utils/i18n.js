@@ -191,7 +191,7 @@ const resources = {
 
 
             contactSectionTitle : "Imprimons votre prochaine idée !",
-            contactSectionDescription : "Contactez-nous dès aujourd'hui pour discuter de vos besoins et commencer à collaborer sur quelque chose d'extraordinaire !»",
+            contactSectionDescription : "Contactez-nous dès aujourd'hui pour discuter de vos besoins et commencer à collaborer sur quelque chose d'extraordinaire !",
             contactInfo : 'Contactez nous à : <1 href="mailto:info@octogone3dprints.com" className="text-zinc-400 hover:text-zinc-50">info@octogone3dprints.com</1>  <br />Ou cliquez sur le bouton ci-dessous : ',
             contactButton : "Contactez nous",
 
