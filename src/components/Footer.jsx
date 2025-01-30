@@ -111,7 +111,7 @@ const Footer = () => {
                 </div>
 
                 <div className="flex items-center justify-between pt-10 pb-8 ">
-                    <a href="/#home" className="logo ">
+                    <a href="#home" className="logo ">
                         <img
                             src="images/octogone-logo-white.svg"
                             width={40}
