@@ -29,10 +29,10 @@ import { Trans } from "react-i18next";
 import { useTranslation } from "react-i18next";
 
 const heroBannerImage = [
-    "/images/HeroBanner/PXL_20250125_174117319.MP~3.png",
-    "/images/HeroBanner/PXL_20250125_174230064.png",
-    "/images/HeroBanner/PXL_20250125_174341672~2.png",
-    "/images/HeroBanner/PXL_20250125_174447486~2.png",
+    "images/HeroBanner/PXL_20250125_174117319.MP~3.png",
+    "images/HeroBanner/PXL_20250125_174230064.png",
+    "images/HeroBanner/PXL_20250125_174341672~2.png",
+    "images/HeroBanner/PXL_20250125_174447486~2.png",
 ];
 
 

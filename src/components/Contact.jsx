@@ -22,7 +22,7 @@ import useNavbar from "../hooks/use_navbar";
 import { useTranslation, Trans } from "react-i18next";
 
 const socialLinks = [
-    {
+    /*{
         href: "https://www.facebook.com/",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 24 24">
@@ -30,7 +30,7 @@ const socialLinks = [
         ),
         alt: "Facebook",
     },
-    /*{
+    {
         href: "https://www.linkedin.com/",
         icon: (
             <svg

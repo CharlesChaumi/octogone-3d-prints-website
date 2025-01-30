@@ -31,10 +31,10 @@ import { useTranslation } from "react-i18next";
 const projects = [
     {
         imgSrc: [
-            "/images/Projects/Wedding_Lantern/PXL_20240420_215908948.MP.jpg",
-            "/images/Projects/Wedding_Lantern/PXL_20240420_220034625.MP.jpg",
-            "/images/Projects/Wedding_Lantern/PXL_20240420_215901978.jpg",
-            "/images/Projects/Wedding_Lantern/PXL_20240420_215858312.MP.jpg",
+            "images/Projects/Wedding_Lantern/PXL_20240420_215908948.MP.jpg",
+            "images/Projects/Wedding_Lantern/PXL_20240420_220034625.MP.jpg",
+            "images/Projects/Wedding_Lantern/PXL_20240420_215901978.jpg",
+            "images/Projects/Wedding_Lantern/PXL_20240420_215858312.MP.jpg",
         ],
         title: "projectsLanternTitle",
         tags: ["projectsLanternTag1", "servicePrintingOnDemand", "servicePrintingPostProcess"],

@@ -54,11 +54,11 @@ const socials = [
     {
         label: "Instagram",
         href: "https://www.instagram.com",
-    },*/
+    },
     {
         label: "Facebook",
         href: "https://www.facebook.com",
-    },
+    },*/
 ];
 
 const Footer = () => {
@@ -75,7 +75,8 @@ const Footer = () => {
                         </h2>
                     </div>
 
-                    <div className="grid grid-cols-2 gap-4 lg:pl-60">
+                    {/*<div className="grid grid-cols-2 gap-4 lg:pl-60">*/}
+                    <div className="grid lg:pl-60">
                         <div>
                             <p className="mb-2 eveal-up">{t("footerSitemapHeader")}</p>
 
@@ -90,7 +91,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div>
+                        {/*<div>
                             <p className="mb-2 ">{t("footerSocialHeader")}</p>
 
                             <ul>
@@ -106,14 +107,14 @@ const Footer = () => {
                                     </li>
                                 ))}
                             </ul>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
 
                 <div className="flex items-center justify-between pt-10 pb-8 ">
                     <a href="/#home" className="logo ">
                         <img
-                            src="/images/octogone-logo-white.svg"
+                            src="images/octogone-logo-white.svg"
                             width={40}
                             height={40}
                             alt="Logo"

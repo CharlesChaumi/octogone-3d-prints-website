@@ -15,7 +15,7 @@ function NotFound() {
     return (
         <div className="max-w-[240px] mx-auto pt-12 text-center">
             <img
-                src="/images/octogone-logo-full-white.svg"
+                src="images/octogone-logo-full-white.svg"
                 alt="Octogone 3D Prints Logo"
                 className="pl-8 mt-12"
                 width={180}

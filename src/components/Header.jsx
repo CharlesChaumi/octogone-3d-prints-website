@@ -56,7 +56,7 @@ const Header = () => {
                     className="logo"
                 >
                     <img 
-                        src="/images/octogone-logo-full-white.svg"
+                        src="images/octogone-logo-full-white.svg"
                         alt="Octogone 3D Prints Logo"
                         width={140}
                         height={140}
