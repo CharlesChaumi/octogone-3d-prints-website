@@ -32,8 +32,8 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="*" element={<NotFound />} />
+        <Route index element={<App />} />
+        {/*<Route path="*" element={<NotFound />} />*/}
       </Routes>
     </BrowserRouter>
   </StrictMode>,
