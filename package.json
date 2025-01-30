@@ -1,15 +1,18 @@
 {
   "name": "octogone-3dprint-website",
-  "private": true,
+  "homepage": "https://charleschaumi.github.io/octogone-3d-prints-website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run deploy",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "i18next": "^24.2.1",
     "loadsh": "^0.0.4",
     "prop-types": "^15.8.1",
