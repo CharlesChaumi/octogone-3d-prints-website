@@ -30,7 +30,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/octogone-3d-prints-website">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="*" element={<NotFound />} />
