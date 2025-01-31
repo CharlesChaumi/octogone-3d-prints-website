@@ -97,9 +97,9 @@ const resources = {
             projectsPhoneTitle : "Lowpoly Phone Stand",
             projectsPhoneDescription : "The customer wanted to offer its employees corporate accessories for the end of the year. We were asked to supply telephone holders with the company logo. We therefore prioritized speed and cost of production, while retaining a wide choice of colors. We therefore designed a low-poly inspired model that highlights the materials used and optimizes printing time. We produced over a hundred pieces for the occasion.",
 
-            contactSectionTitle : "Let's print you next idea !",
-            contactSectionDescription : "Reach out today to discuss your needs and start collaborating on something amazing !",
-            contactInfo : 'Contact us at : <1 href="mailto:info@octogone3dprints.com" className="text-zinc-400 hover:text-zinc-50">info@octogone3dprints.com</1>  <br />or click on the button below : ',
+            contactSectionTitle : "Let's print your next idea!",
+            contactSectionDescription : "Reach out today to discuss your needs and start collaborating on something amazing!",
+            contactInfo : 'Contact us at: <1 href="mailto:info@octogone3dprints.com" className="text-zinc-400 hover:text-zinc-50">info@octogone3dprints.com</1>  <br />or click on the button below: ',
             contactButton : "Contact us",
 
         
